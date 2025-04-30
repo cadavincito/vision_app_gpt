@@ -14,7 +14,7 @@ st.title("🏞️🤖Análisis de Imagen🤖🏞️")
 ke = st.text_input('Ingresa tu Clave')
 os.environ['OPENAI_API_KEY'] = ke
 
-st.image("imagen.jpg")
+st.image("img.jpg")
 # Retrieve the OpenAI API Key from secrets
 api_key = os.environ['OPENAI_API_KEY']
 
